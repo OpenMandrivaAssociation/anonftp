@@ -10,7 +10,6 @@ Release:	%{release}
 License:	GPL
 Group:		System/Servers
 Source0:	recompress.c.bz2
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 AutoReqProv:	0
 Requires(post):	wu-ftpd
 Requires(preun): wu-ftpd
