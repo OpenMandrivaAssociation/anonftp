@@ -125,7 +125,9 @@ if [ -f /etc/ftpaccess ];then
 		fi
 fi
 exit 0
+%if %mdkversion < 200900
 /sbin/ldconfig
+%endif
 
 %preun
 if [ -f /etc/ftpaccess ];then
