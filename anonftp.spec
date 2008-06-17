@@ -57,14 +57,6 @@ ftp::50:
 EOF
 
 %define LDSOVER 2
-#%define LIBCVER 2.1.3
-#%define LIBCVER 2.2.3
-#%define LIBCVER 2.2.4
-#%define LIBCVER 2.2.5
-#%define LIBCVER 2.3.1
-#%define LIBCVER 2.3.2
-#%define LIBCVER 2.3.4
-#%define LIBCVER 2.3.5
 %define LIBCVER 2.4
 %define LIBNSSVER 2
 
