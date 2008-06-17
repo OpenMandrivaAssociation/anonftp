@@ -57,7 +57,7 @@ ftp::50:
 EOF
 
 %define LDSOVER 2
-%define LIBCVER 2.4
+%define LIBCVER 2.8
 %define LIBNSSVER 2
 
 %ifarch %{ix86} sparc sparcv9 sparc64 armv4l ppc ia64 ppc64 x86_64
