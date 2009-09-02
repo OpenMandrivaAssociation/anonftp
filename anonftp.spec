@@ -57,8 +57,9 @@ ftp::50:
 EOF
 
 %define LDSOVER 2
-%define LIBCVER 2.8
+%define LIBCVER %(rpm -q --qf '%%{version}' glibc)
 %define LIBNSSVER 2
+echo %LIBCVER
 
 %ifarch %{ix86} sparc sparcv9 sparc64 armv4l ppc ia64 ppc64 x86_64
 LIBCSOVER=6
