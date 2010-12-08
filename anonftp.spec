@@ -1,6 +1,6 @@
 %define	name	anonftp
 %define	version	3.0
-%define rel	37
+%define rel	38
 %define	release	%mkrel %{rel}
 
 Summary:	A program which enables anonymous FTP access
