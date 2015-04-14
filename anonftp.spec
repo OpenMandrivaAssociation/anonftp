@@ -131,7 +131,7 @@ exit 0
 %{_var}/ftp/lib/libc.so.6
 %{_var}/ftp/lib/libnsl.so.1
 %{_var}/ftp/lib/libc-%{LIBCVER}.so
-%{_var}/ftp/lib/ld.so.1
+%{_var}/ftp/lib/ld-linux.so.2
 %{_var}/ftp/lib/ld-%{LIBCVER}.so
 %{_var}/ftp/lib/libnss_files-%{LIBCVER}.so
 %{_var}/ftp/lib/libnss_files.so.%{LIBNSSVER}
@@ -140,7 +140,7 @@ exit 0
 %{_var}/ftp/lib/libnsl-%{LIBCVER}.so
 %{_var}/ftp/lib/libtermcap.so.2.0.8
 %{_var}/ftp/lib/libtermcap.so.2
-
+%endif
 %attr(0755,root,root) %dir %{_var}/ftp
 %attr(0111,root,root) %dir %{_var}/ftp/bin
 %attr(0111,root,root) %dir %{_var}/ftp/etc
