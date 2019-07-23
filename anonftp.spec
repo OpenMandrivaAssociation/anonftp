@@ -6,7 +6,7 @@
 Summary:	A program which enables anonymous FTP access
 Name:		%{name}
 Version:	%{version}
-Release:	%{release}
+Release:	1
 License:	GPL
 Group:		System/Servers
 Source0:	recompress.c.bz2
